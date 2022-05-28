@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # build vue for further use
 go get github.com/GeertJohan/go.rice/rice
+go install github.com/GeertJohan/go.rice/rice
 cd vue
 npm install
 npm run build
