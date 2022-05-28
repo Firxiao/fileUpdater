@@ -28,7 +28,7 @@ jobs:
     - uses: actions/setup-node@v3
       with:
         node-version: 17
-    - cmd: bash pre-build.sh
+    - run: bash pre-build.sh
     - uses: wangyoucao577/go-release-action@v1.28
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
